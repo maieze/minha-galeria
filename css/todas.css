@@ -1,0 +1,89 @@
+body{
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Arial, 'Trebuchet MS', sans-serif;
+    background-color: rgba(90, 89, 88, 0.103);
+    margin: 0 auto;
+    padding: 5px 5px;
+}
+.principal {
+    border: 1px groove rgba(231, 220, 220, 0.884);
+    background-color: rgba(230, 222, 222, 0.712);
+    width: 100%;
+    color: black;
+    font-size: 16pt;
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.links{
+    
+    justify-content: center;
+    margin-left: 10px;
+    display: inline-flex;
+    gap: 40px;
+}
+#link{
+    color: black;
+    margin-top: 40px;
+    margin-left: 5px;
+    list-style: none;
+}
+a{
+    padding-left: 3%;
+    text-decoration: none;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+}
+.secundario{
+
+    list-style: none;
+    margin: 0 auto;
+    margin-left: 0;
+    font-size: 22px;
+    display: block;
+    justify-content: space-between;
+    gap: 50px;
+    text-align:start;
+ 
+}
+#link-sec {
+    padding-top: 25px;
+    padding-bottom: 1px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(161, 163, 165, 0.336);
+    box-shadow: 2px 2px 4px 4px black;
+    width: 300px;
+    height: 60px;
+    gap:20px
+}
+input{
+
+    position: relative;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 18pt;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.fotografias{
+    position: relative;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 1500px;
+    height: 700px;
+    left: 400px;
+    bottom: 360px;
+}
+#ifo{
+    position: relative;
+    font-size: 17pt;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    top:450pt;
+}

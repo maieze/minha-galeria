@@ -1,0 +1,145 @@
+body{
+    position: relative;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.topo{
+    position: relative;
+    border: 1px solid #c9c6c6;
+    background-color: rgb(221, 219, 219);
+    width: 100%;
+    display:flex;
+    align-items: center;
+    padding: 10px 50px;
+}
+main{
+    margin: auto;
+    padding: 40px 10px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    margin-left: 180%;
+    padding: 0;
+    gap:25px;
+}
+.albuns{
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: auto;
+    max-height: 950px;
+    color: rgb(104, 105, 105);
+    background-color: #f3f2f29d;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Arial, 'Trebuchet MS', sans-serif;
+    padding: 15px 15px;
+
+}
+.album-tipo{
+
+    margin: auto;
+    display: grid;  
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));  
+    gap: 1px;
+    padding: 100px;
+}
+.tipo{
+    margin: auto;
+    border: 2px solid white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    width: 250px;
+    height: 150px;
+    background: white;
+    box-shadow: 2px 2px 3px 5px rgba(187, 186, 186, 0.514);
+  
+}
+.album-tipo figure{
+    position: relative;
+    cursor: pointer;
+}
+.album-tipo .tipo{
+    margin: auto;
+    width: 260px;
+    height: 140px;
+    background-color: #0000005b;
+    box-shadow: 2px 2px 3px 5px rgba(187,186,186,0.5);
+}
+.album-tipo figcaption{
+    pointer-events: none;
+}
+.album-tipo figure figcaption{
+    pointer-events: none;
+}
+
+
+
+footer{
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+    background-color: #979494;
+    bottom:0;
+}
+.icones{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3px, 1fr));
+    margin-left: 290px;
+}
+.icones img{
+    position: relative;
+    width: 10px;
+    height: 15px;
+    cursor: pointer;
+}
+.midia figcaption{
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 270px;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-out;
+    justify-items: center;
+}
+.midia:hover figcaption{
+    opacity: 1;
+    margin: auto;
+}
+figcaption p{
+    font-size: 10pt;
+}
+#meio{
+    margin-left: -1000px;
+}
+#meio1{
+    margin-left: 200px;
+}
+#meio2{
+    margin-left: -100px;
+}
+#meio3{
+    margin-left: -300px;
+}
+#yt{
+    justify-content: center;
+    text-align: center;
+    margin-left: -300%;
+}
+#fb{
+    margin-left: 30%;
+}
+#ins{
+    margin-left: -40%;
+}
+#tw{
+    margin-left: -100%;
+}
+
+

@@ -1,0 +1,97 @@
+body{
+    background: rgba(0, 0, 0, 0.884);
+    margin: 0 auto;
+    padding: 0;
+}
+.topo{
+    border: 1px solid #ffffff;
+    background-color: rgb(151, 148, 148);
+    width: 100%;
+    display:flex;
+    align-items: center;
+    padding: 10px 50px;
+}
+.rodape{
+
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.rodape ul{
+    display: flex;
+    list-style: none;
+    gap:25px
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    margin-left: 75%;
+    margin-top: -3%;
+    padding: 0;
+    gap:25px;
+}
+
+a{
+    color: beige;
+    font: inherit;
+    
+}
+.imagens{
+    margin: center;
+    margin-left: 650px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    gap: 10px;
+    padding: 40px;
+    margin: 0 auto;
+
+}
+
+img{
+
+    border: 2px solid white;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 590px;
+    height: 400px;
+}
+.imagens figure {
+    position: relative;
+}
+
+
+.imagens figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 620px;
+    height: 399px;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    text-align: center;
+    padding: 6px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    cursor: pointer;
+    pointer-events: auto;
+
+}
+
+.imagens figure:hover figcaption {
+    opacity: 1;
+    pointer-events: none;
+}
+
+p{
+    font-size: 18pt;
+    color: rgba(255, 255, 255, 0.425);
+}
+#click{
+     color:rgba(0, 0, 255, 0.479);
+     font-style: inherit;
+     font-family: 'Segoe UI', Tahoma, Arial, Verdana, sans-serif;
+     font-display: fallback;
+}

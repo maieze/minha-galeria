@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/albuns.css">
+    <title>Momentos</title>
+</head>
+<body>
+    
+    <header class="topo">
+
+        <nav class="navegacao">
+           
+            <ul class="principal">
+                <h1>Minha Galeria | Album | Momentos Especiais</h1>
+                <div class="links">
+                    <li id="link"><a href="index.html">Home</a></li>
+                    <li id="link"><a href="gallery.html">Gallery</a></li>
+                    <li id="link"><a href="sobre.html">About</a></li>
+                    <li id="link"><a href="contactos.html">Contact</a></li>
+                </div>
+            </ul>
+
+            <ul class="secundario">
+                <li id="link-sec"><a href="gallery.html">Voltar</a></li>
+                <li id="link-sec"><a href="favoritas.html">Favoritas</a></li>
+                <li id="link-sec"><a href="passeios.html">Passeios</a></li>
+                <li id="link-sec"><a href="todas.html">Todas</a></li>
+            </ul>
+        </nav>
+
+        <input type="file" id="fileInput" accept="image/*" style="display:none">
+        <input type="button" value="Adicionar Fotografia" onclick="document.getElementById('fileInput').click()">
+
+    </header>
+    <section class="fotografias">
+
+        <div id="ifo">
+            <p>Nenhuma Fotografia Disponivel</p>
+            <p>Clique em <strong style="color: rgba(78, 76, 76, 0.582);">"Adicionar Fotografia"</strong> para adicionar fotografias</p>
+        </div>
+    </section>
+
+        <!-- Modal-->
+        <div id="modal" class="modal">
+        <span id="close">&times;</span>
+        <img id="modal-img">
+        </div>
+
+    <script src="../scripts/albuns.js"></script>
+
+</body>
+</html>
